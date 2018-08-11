@@ -16,7 +16,7 @@
     const ctx = canvas.getContext("2d");
     const img = document.getElementById("image");
     img.onload = function () {
-        ctx.drawImage(img, 0, 0, 50, 50);
+        ctx.drawImage(img, 0, 0, 50/* width */, 50/* height */);
     };
 
 </script>
